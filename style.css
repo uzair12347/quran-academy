@@ -37,6 +37,7 @@ div{
   .column{
     height: auto;
     width: auto;
+      border:1px solid black;
   }
   .footer{
     height: auto;
