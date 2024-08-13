@@ -1,50 +1,49 @@
-div{
+.container{
     text-decoration: underline;
     text-align: center;
     font-size: larger;
-    font-family: cursive;
-    border:1px solid black;
-}
-body{
-    background-color:wheat;
+    border: 1px solid black;
 }
 
-* {
-    box-sizing: border-box;
-  }
+body{
+  background-color: wheat;
+}
+
+
   .column {
     float: left;
     width: 33.33%;
     padding: 5px;
-    border: 3px solid transperent;
-    border-radius: 50px; 
-    background-color:wheat;  
+    text-decoration: underline;
+    font-size: larger;
+    background-color:wheat; 
+  
   }
   .footer{
     text-align: center;
     color: blue;
     padding: 20px;
-    background: radial-gradient(grey,wheat);
+    background: radial-gradient(grey);
   }
   .footer-section{
     text-align: start;
-  margin: 30px;
+    margin: 30px;
   }
   .footer-section{
     text-align: start;
   }
-  @media (min-width:300px)  and {max-width: 600px) {
-  div{
+  @media (min-width:300px) and (max-width: 600px) {
+  .container{
     width: 100%;
   }
   .column{
     height: auto;
     width: auto;
-      border:1px solid black;
-      display:flex;
-      flex-wrap:wrap;
-      padding:20px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap:wrap;
   }
+
   .footer{
     height: auto;
     width: auto;
@@ -54,18 +53,18 @@ body{
     width: auto;
   }
   }
+
 @media (min-width: 601px) and (max-width: 900px) {
-    div{
+    .container{
         width: 100%;
+        height: auto;
+        border: 1px solid black;
+        
       }
       .column{
         height: auto;
         width: auto;
-          overflow:hidden;
-           border:1px solid black;
-      display:flex;
-      flex-wrap:wrap;
-          padding:20px;
+        overflow: hidden;
       }
       .footer{
         height: auto;
@@ -78,17 +77,15 @@ body{
 
 }
 @media (min-width: 901px) and (max-width: 1200px) {
-    div{
+    .container{
         width: 100%;
+        height: auto;
+        border: 1px solid black;
       }
       .column{
         height: auto;
         width: auto;
-          overflow:hidden;
-           border:1px solid black;
-      display:flex;
-      flex-wrap:wrap;
-          padding:20px;
+        overflow: hidden;
       }
       .footer{
         height: auto;
@@ -102,7 +99,6 @@ body{
 @media (min-width: 1201px) {
    
 }
-
 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
