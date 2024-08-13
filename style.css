@@ -43,6 +43,7 @@ body{
       border:1px solid black;
       display:flex;
       flex-wrap:wrap;
+      padding:20px;
   }
   .footer{
     height: auto;
@@ -61,6 +62,10 @@ body{
         height: auto;
         width: auto;
           overflow:hidden;
+           border:1px solid black;
+      display:flex;
+      flex-wrap:wrap;
+          padding:20px;
       }
       .footer{
         height: auto;
@@ -79,6 +84,11 @@ body{
       .column{
         height: auto;
         width: auto;
+          overflow:hidden;
+           border:1px solid black;
+      display:flex;
+      flex-wrap:wrap;
+          padding:20px;
       }
       .footer{
         height: auto;
