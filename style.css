@@ -3,6 +3,7 @@ div{
     text-align: center;
     font-size: larger;
     font-family: cursive;
+    border:1px solid black;
 }
 
 * {
@@ -53,6 +54,7 @@ div{
       .column{
         height: auto;
         width: auto;
+          overflow:hidden;
       }
       .footer{
         height: auto;
