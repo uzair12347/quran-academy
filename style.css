@@ -5,6 +5,8 @@ div{
     font-family: cursive;
     border:1px solid black;
 }
+body{
+    background-color:wheat;
 
 * {
     box-sizing: border-box;
