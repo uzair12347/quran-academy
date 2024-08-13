@@ -38,6 +38,8 @@ div{
     height: auto;
     width: auto;
       border:1px solid black;
+      display:flex;
+      flex-wrap:wrap;
   }
   .footer{
     height: auto;
